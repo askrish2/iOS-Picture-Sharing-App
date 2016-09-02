@@ -1,0 +1,68 @@
+PODS:
+  - CLImageEditor/AllTools (0.1.4):
+    - CLImageEditor/Core
+    - CLImageEditor/EmoticonTool
+    - CLImageEditor/ResizeTool
+    - CLImageEditor/SplashTool
+    - CLImageEditor/StickerTool
+    - CLImageEditor/TextTool
+  - CLImageEditor/Core (0.1.4)
+  - CLImageEditor/EmoticonTool (0.1.4):
+    - CLImageEditor/Core
+  - CLImageEditor/ResizeTool (0.1.4):
+    - CLImageEditor/Core
+  - CLImageEditor/SplashTool (0.1.4):
+    - CLImageEditor/Core
+  - CLImageEditor/StickerTool (0.1.4):
+    - CLImageEditor/Core
+  - CLImageEditor/TextTool (0.1.4):
+    - CLImageEditor/Core
+  - CMDQueryStringSerialization (0.4.1):
+    - ISO8601
+  - cocoa-oauth (0.0.1):
+    - NSData+Base64 (~> 1.0)
+  - GGTabBar (0.0.2)
+  - ISO8601 (0.6.0)
+  - NSData+Base64 (1.0.0)
+  - ReactiveCocoa (2.4.7):
+    - ReactiveCocoa/UI (= 2.4.7)
+  - ReactiveCocoa/Core (2.4.7):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.7)
+  - ReactiveCocoa/UI (2.4.7):
+    - ReactiveCocoa/Core
+  - SAMCache (0.3.3)
+  - SAMCategories (0.5.2)
+  - SimpleAuth/Core (0.3.6):
+    - CMDQueryStringSerialization
+    - ReactiveCocoa
+  - SimpleAuth/Tumblr (0.3.6):
+    - cocoa-oauth
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/UI (0.3.6):
+    - SimpleAuth/Core
+
+DEPENDENCIES:
+  - CLImageEditor/AllTools
+  - GGTabBar (~> 0.0.2)
+  - ReactiveCocoa (= 2.4.7)
+  - SAMCache
+  - SAMCategories
+  - SimpleAuth/Tumblr (= 0.3.6)
+
+SPEC CHECKSUMS:
+  CLImageEditor: 9d388449af816729da67e68465e20462f181841d
+  CMDQueryStringSerialization: 4bb0a2f5e7d8d8678d911d88072274952cbef4e5
+  cocoa-oauth: 1200a2170276a62a975f2786d505dab6e2db1fa8
+  GGTabBar: bd0f580e8861e922385f06659d21019e61de9150
+  ISO8601: d3ea3ba9b752820cf92c6b47a9ee327e9f0e13fc
+  NSData+Base64: 4e84902c4db907a15673474677e57763ef3903e4
+  ReactiveCocoa: eb38dee0a0e698f73a9b25e5c1faea2bb4c79240
+  SAMCache: 790b2623a3e087c903daff872c90c248726c4c82
+  SAMCategories: bf8287f7961a0b343168d1fee16338dc1626ea39
+  SimpleAuth: 3f9cc008a7d2b82163c117a328d80380072afa4e
+
+PODFILE CHECKSUM: 32b84229fe8d11b5bec1717944ee6eebbda74714
+
+COCOAPODS: 1.0.1
